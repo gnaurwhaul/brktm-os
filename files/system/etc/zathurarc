@@ -2,4 +2,4 @@ set window-width 1000
 set window-height 1000
 set adjust-open "width"
 
-set database "sqlit"
+set database "sqlite"
