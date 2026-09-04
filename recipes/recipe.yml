@@ -33,6 +33,8 @@ modules:
         - zathura
         - zathura-pdf-poppler
         - picocom
+        - tailscale
+        - thunderbird
         
     remove:
       packages:
@@ -40,7 +42,6 @@ modules:
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-        - cu
   - type: default-flatpaks
     configurations:
       - notify: false # Send notification after install/uninstall is finished (true/false)
@@ -54,6 +55,7 @@ modules:
           - io.freetubeapp.FreeTube
           - org.gnucash.GnuCash
           - com.microsoft.Edge
+          - org.localsend.localsend_app
 
   - type: fonts
     fonts:

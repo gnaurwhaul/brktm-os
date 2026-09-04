@@ -3,11 +3,11 @@
   "policies": {
             "ExtensionSettings": {
               "*": {
-                "installation_mode": "force_installed"
+                "installation_mode": "allowed"
               },
               "uBlock0@raymondhill.net": {
-                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/uBlock0@raymondhill.net/latest.xpi",
-                "installation_mode": "force_installed"
+                "installation_mode": "force_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/uBlock0@raymondhill.net/latest.xpi"
               }
     },
     "AIControls": {
@@ -34,8 +34,7 @@
     "AutofillCreditCardEnabled": false,
     "Cookies": {
       "Behavior": "reject-foreign",
-      "BehaviorPrivateBrowsing": "reject-foreign",
-      "ExpireAtSessionEnd": true
+      "BehaviorPrivateBrowsing": "reject-foreign"
     },
     "DisableAccounts": true,
     "DisableBuiltinPDFViewer": true,
