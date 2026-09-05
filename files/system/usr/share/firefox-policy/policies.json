@@ -61,7 +61,10 @@
     },
     "Homepage": {
       "StartPage": "homepage",
-      "URL": "https://startpage.com"
+      "URL": "https://kagi.com"
+    },
+    "SearchEngines": {
+      "Default": "DuckDuckGo"
     },
     "IPProtectionAvailable": false,
     "NewTabPage": false,
