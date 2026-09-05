@@ -29,6 +29,7 @@ modules:
         - btop
         - pass
         - netcat
+        - tcpdump
         - distrobox
         - zathura
         - zathura-pdf-poppler
@@ -56,6 +57,7 @@ modules:
           - org.gnucash.GnuCash
           - com.microsoft.Edge
           - org.localsend.localsend_app
+          - io.github.dweymouth.supersonic
 
   - type: fonts
     fonts:
