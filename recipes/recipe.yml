@@ -29,6 +29,7 @@ modules:
         - btop
         - pass
         - netcat
+        - tcpdump
         - distrobox
         - zathura
         - zathura-pdf-poppler
@@ -54,6 +55,7 @@ modules:
           - io.freetubeapp.FreeTube
           - org.gnucash.GnuCash
           - com.microsoft.Edge
+          - io.github.dweymouth.supersonic
 
   - type: fonts
     fonts:
