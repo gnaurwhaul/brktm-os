@@ -14,7 +14,7 @@ image-version: 44
 modules:
   - type: gschema-overrides
     include: 
-      - zz1-gnome-defaults-override
+      - zz1-gnome-defaults.gschema.override
   - type: systemd
     system:
       enabled:
