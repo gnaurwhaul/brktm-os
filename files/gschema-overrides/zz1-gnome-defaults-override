@@ -1,0 +1,10 @@
+[org.gnome.desktop.wm.preferences]
+button-layout=':minimize,maximize,close'
+
+[org.gnome.desktop.backgroud]
+picture-uri='file///:usr/share/backgrounds/user-wallpaper/lani-cafe_2560x1600.png'
+picture-uri-dark='file///:usr/share/backgrounds/user-wallpaper/lani-cafe_2560x1600.png'
+picture-options='zoom'
+
+[org.gnome.desktop.input-sources]
+xkb-options=['ctrl:nocaps']
